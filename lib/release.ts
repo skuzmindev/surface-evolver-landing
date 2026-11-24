@@ -1,5 +1,5 @@
-// There are no versioned releases: every push to main that passes CI replaces
-// a single rolling release tagged `latest`. Assets resolve through that tag, so
+// There are no versioned releases: every push to main that passes CI updates a
+// single rolling release tagged `latest` in place. Assets resolve through that tag, so
 // these links always point at the newest tested build without editing this file.
 export const REPO = "https://github.com/sersergious/surface-evolver";
 

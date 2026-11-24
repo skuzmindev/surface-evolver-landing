@@ -18,7 +18,7 @@ const panes = [
       "Syntax-highlighted .fe editor with one-click Save & Reload",
       "The complete Surface Evolver command language, verbatim",
       "Run menu: iterate ×10, ×100, refine, equiangulate, vertex average (⌘G, ⇧⌘G, ⌘R, ⌘U, ⌘E on macOS)",
-      "Stop interrupts a running command and keeps the surface as far as it evolved",
+      "Stop (or Esc) interrupts a running command and keeps the surface as far as it evolved",
     ],
   },
   {

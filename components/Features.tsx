@@ -15,7 +15,7 @@ const features = [
     icon: CubeTransparentIcon,
     title: "Live WebGL viewer",
     description:
-      "Three.js rendering with solid, wireframe and X-ray modes, Surface Evolver's own per-element colors, an edge overlay and orbit controls. The camera frames a surface once, when it loads, and keeps your view through every command after, in a neutral light or dark theme that follows your system. The original ships an X11/OpenGL window many users never get working.",
+      "Three.js rendering with solid, wireframe and X-ray modes, Surface Evolver's own per-element colors, an edge overlay and orbit controls. The camera frames a surface once, when it loads, and keeps your view through every command after, in a neutral light or dark theme that follows your system. A refined 100,000-facet mesh reaches the viewer in about a tenth of a second. The original ships an X11/OpenGL window many users never get working.",
   },
   {
     icon: Squares2X2Icon,
@@ -45,13 +45,13 @@ const features = [
     icon: StopCircleIcon,
     title: "A Stop button that keeps your work",
     description:
-      "A long g 100000 can be stopped mid-run, and the surface stays as far as it evolved: Stop interrupts the command instead of throwing the engine away. Only if the engine doesn't respond does Stop end it, and the app and the tab stay open either way.",
+      "A long g 100000 can be stopped mid-run, from the button or with Esc, and the surface stays as far as it evolved: Stop interrupts the command instead of throwing the engine away. Only if the engine doesn't respond does Stop end it, and then it reloads the surface as it was before that command, so you carry on instead of reopening the file.",
   },
   {
     icon: ShieldCheckIcon,
     title: "Crash isolation",
     description:
-      "The engine runs in a separate process. A segfault or an exit() on an unrecoverable error costs you a session, not the application.",
+      "The engine runs in a separate process. A segfault or an exit() on an unrecoverable error costs you a session, not the application. In the interface, a crash replaces only the pane it happened in, with a Try again that brings it back.",
   },
   {
     icon: RectangleGroupIcon,

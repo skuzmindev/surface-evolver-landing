@@ -7,7 +7,7 @@ const stats = [
   { value: "190k", label: "lines of C engine, unmodified" },
   { value: "20 / 20", label: "bundled datafiles load and mesh, checked in CI" },
   { value: "345 KB", label: "Rust worker sidecar" },
-  { value: "3", label: "platforms, rebuilt on every passing commit" },
+  { value: "2", label: "platforms, rebuilt on every passing commit" },
 ];
 
 export default function Hero() {
